@@ -104,7 +104,7 @@ async def start(bot, cmd):
                     ],
                    [
                        InlineKeyboardButton("🍿 𝗠𝗢𝗩𝗜𝗘𝗦 Group 📺", url='https://t.me/cinima_lokam_group'),
-                       InlineKeyboardButton("🔔 𝗦𝗨𝗕𝗦𝗖𝗥𝗜𝗕𝗘 🔔", url='https://youtu.be/2tek7Y5CEF4'),
+                       InlineKeyboardButton("🔔 𝗦𝗨𝗕𝗦𝗖𝗥𝗜𝗕𝗘 🔔", url='https://t.me/joinchat/Wl2qJsJpNhg0OWVl'),
                     ],
                      [
                         InlineKeyboardButton("🗣️ 𝗔𝗕𝗢𝗨𝗧", callback_data="about")
@@ -200,7 +200,7 @@ async def bot_info(bot, message):
             InlineKeyboardButton('📥 𝗚𝗥𝗢𝗨𝗣 📥', url='https://t.me/cinima_lokam_group')
         ]
         ]
-    await message.reply(text="<b>Developer : <a href='https://t.me/malayalammoviemmms'>꧁LXR=AMAL★࿐</a>\nLanguage : <code>Python3</code>\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\nSource Code : <a href='https://youtu.be/2tek7Y5CEF4'>Click here</a>\nUpdate Channel : <a href='https://t.me/MALAYALAMNEWMOVIESONLY1'>𝙹𝙾𝙸𝙽 𝙽𝙾𝚆</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
+    await message.reply(text="<b>Developer : <a href='http://t.me/Ramanan1_bot'>Aslam</a>\nLanguage : <code>Python3</code>\nLibrary : <a href='https://github.com/aslamcreation12/IMDb-Filter-bot-Cinema'>Pyrogram asyncio</a>\nSource Code : <a href='http://t.me/Ramanan1_bot'>Click here</a>\nUpdate Channel : <a href='https://t.me/joinchat/Wl2qJsJpNhg0OWVl'>𝙹𝙾𝙸𝙽 𝙽𝙾𝚆</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
 
 @Client.on_message(filters.command('help'))
 async def bot_info(bot, message):
