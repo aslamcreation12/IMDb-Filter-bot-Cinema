@@ -196,8 +196,8 @@ async def delete(bot, message):
 async def bot_info(bot, message):
     buttons = [
         [
-            InlineKeyboardButton('💌 𝗦𝗨𝗕𝗔𝗖𝗥𝗜𝗕𝗘 💌', url='https://youtu.be/2tek7Y5CEF4'),
-            InlineKeyboardButton('📥 𝗚𝗥𝗢𝗨𝗣 📥', url='https://t.me/malayalammoviesmms')
+            InlineKeyboardButton('💌 𝗦𝗨𝗕𝗔𝗖𝗥𝗜𝗕𝗘 💌', url='https://t.me/joinchat/Wl2qJsJpNhg0OWVl'),
+            InlineKeyboardButton('📥 𝗚𝗥𝗢𝗨𝗣 📥', url='https://t.me/cinima_lokam_group')
         ]
         ]
     await message.reply(text="<b>Developer : <a href='https://t.me/malayalammoviemmms'>꧁LXR=AMAL★࿐</a>\nLanguage : <code>Python3</code>\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\nSource Code : <a href='https://youtu.be/2tek7Y5CEF4'>Click here</a>\nUpdate Channel : <a href='https://t.me/MALAYALAMNEWMOVIESONLY1'>𝙹𝙾𝙸𝙽 𝙽𝙾𝚆</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
