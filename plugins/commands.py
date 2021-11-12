@@ -67,7 +67,7 @@ async def start(bot, cmd):
                 buttons = [
                     [
                         InlineKeyboardButton('📺 𝗦𝗘𝗔𝗥𝗖𝗛 𝗛𝗘𝗥𝗘 🔍', switch_inline_query_current_chat=''),
-                        InlineKeyboardButton('💌 𝗦𝗨𝗕𝗦𝗖𝗥𝗜𝗕𝗘 💌', url='https://youtu.be/2tek7Y5CEF4')
+                        InlineKeyboardButton('💌 𝗦𝗨𝗕𝗦𝗖𝗥𝗜𝗕𝗘 💌', url='https://t.me/joinchat/Wl2qJsJpNhg0OWVl')
                     ]
                     ]
                 await bot.send_cached_media(
@@ -100,10 +100,10 @@ async def start(bot, cmd):
                 [
                     [
                         InlineKeyboardButton("📺 𝗦𝗘𝗔𝗥𝗖𝗛 𝗛𝗘𝗥𝗘 🔍", switch_inline_query_current_chat=''),
-                        InlineKeyboardButton("📥 𝗢𝗧𝗧 𝗠𝗢𝗩𝗜𝗘𝗦 📥", url='https://t.me/MM2NDCHANNEL'),
+                        InlineKeyboardButton("📥 𝗢𝗧𝗧 𝗠𝗢𝗩𝗜𝗘𝗦 📥", url='https://t.me/joinchat/Wl2qJsJpNhg0OWVl'),
                     ],
                    [
-                       InlineKeyboardButton("🍿 𝗠𝗢𝗩𝗜𝗘𝗦 📺", url='https://t.me/malayalammoviesmms'),
+                       InlineKeyboardButton("🍿 𝗠𝗢𝗩𝗜𝗘𝗦 Group 📺", url='https://t.me/cinima_lokam_group'),
                        InlineKeyboardButton("🔔 𝗦𝗨𝗕𝗦𝗖𝗥𝗜𝗕𝗘 🔔", url='https://youtu.be/2tek7Y5CEF4'),
                     ],
                      [
@@ -150,7 +150,7 @@ async def total(bot, message):
     msg = await message.reply("Processing...⏳", quote=True)
     try:
         total = await Media.count_documents()
-        await msg.edit(f'📁 Saved files: {total}')
+        await msg.edit(f'📂 Saved files: {total}')
     except Exception as e:
         logger.exception('Failed to check total files')
         await msg.edit(f'Error: {e}')
@@ -206,8 +206,8 @@ async def bot_info(bot, message):
 async def bot_info(bot, message):
     buttons = [
         [
-            InlineKeyboardButton('💌 𝗦𝗨𝗕𝗦𝗖𝗥𝗜𝗕𝗘 💌', url='https://youtu.be/2tek7Y5CEF4'),
-            InlineKeyboardButton('࿐ 𝗦𝗨𝗣𝗣𝗢𝗨𝗥𝗧 𝗚𝗥𝗢𝗨𝗣 ࿐', url='https://t.me/malayalammoviesmms')
+            InlineKeyboardButton('💌 𝗦𝗨𝗕𝗦𝗖𝗥𝗜𝗕𝗘 💌', url='https://t.me/joinchat/Wl2qJsJpNhg0OWVl'),
+            InlineKeyboardButton('࿐ 𝗦𝗨𝗣𝗣𝗢𝗨𝗥𝗧 𝗚𝗥𝗢𝗨𝗣 ࿐', url='https://t.me/cinima_lokam_group')
         ]
         ]
     await message.reply(text="<b>If You Have Any Doubts And If Any Errors In Codes Or Bugs Inform Us On Our Support Group ❗️\n Use Below Buttons To Get Support Group / Update channel Links </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
