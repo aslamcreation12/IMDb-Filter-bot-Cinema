@@ -289,7 +289,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     InlineKeyboardButton('⚡️Update Channel⚡️', url='https://t.me/joinchat/Wl2qJsJpNhg0OWVl'),
                 ]
                 ]
-            await query.message.edit(text="<b>Developer : <a href='http://t.me/Ramanan1_bot'>Ramanam</a>\nLanguage : <code>Python3</code>\nLibrary : <a href='https://github.com/aslamcreation12/IMDb-Filter-bot-Cinema'>Pyrogram asyncio</a>\n Update Channel : <a href='https://t.me/LXRYOUTUBERYT'>ErrorXBotz</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
+            await query.message.edit(text="<b>Developer : <a href='http://t.me/Ramanan1_bot'>Ramanam</a>\nLanguage : <code>Python3</code>\nLibrary : <a href='https://github.com/aslamcreation12/IMDb-Filter-bot-Cinema'>Pyrogram asyncio</a>\n Update Channel : <a href='http://t.me/Ramanan1_bot'>FilterBotz</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
 
 
 
