@@ -66,8 +66,8 @@ async def start(bot, cmd):
                     f_caption = f"{files.file_name}"
                 buttons = [
                     [
-                        InlineKeyboardButton('📺 𝗦𝗘𝗔𝗥𝗖𝗛 𝗛𝗘𝗥𝗘 🔍', switch_inline_query_current_chat=''),
-                        InlineKeyboardButton('💌 Subscribe 💌', url='https://t.me/joinchat/Wl2qJsJpNhg0OWVl')
+                        InlineKeyboardButton('📺 Search here 🔍', switch_inline_query_current_chat=''),
+                        InlineKeyboardButton('💌 Subscribe 💌', url='https://t.me/qtmve')
                     ]
                     ]
                 await bot.send_cached_media(
@@ -99,12 +99,12 @@ async def start(bot, cmd):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("📺 𝗦𝗘𝗔𝗥𝗖𝗛 𝗛𝗘𝗥𝗘 🔍", switch_inline_query_current_chat=''),
-                        InlineKeyboardButton("📥 New Release movies 📥", url='https://t.me/joinchat/Wl2qJsJpNhg0OWVl'),
+                        InlineKeyboardButton("📺 search here 🔍", switch_inline_query_current_chat=''),
+                        InlineKeyboardButton("📥 New Release movies 📥", url='https://t.me/qtmve'),
                     ],
                    [
                        InlineKeyboardButton("🍿 Movies Group 📺", url='https://t.me/cinima_lokam_group'),
-                       InlineKeyboardButton("🔔 Subscribe 🔔", url='https://t.me/joinchat/Wl2qJsJpNhg0OWVl'),
+                       InlineKeyboardButton("✨️Developer ✨️", url='http://t.me/Ramanan1_bot'),
                     ],
                      [
                         InlineKeyboardButton("🗣️ 𝗔𝗕𝗢𝗨𝗧", callback_data="about")
@@ -196,8 +196,8 @@ async def delete(bot, message):
 async def bot_info(bot, message):
     buttons = [
         [
-            InlineKeyboardButton('💌 Subscribe 💌', url='https://t.me/joinchat/Wl2qJsJpNhg0OWVl'),
-            InlineKeyboardButton('📥 Group 📥', url='https://t.me/cinima_lokam_group')
+            InlineKeyboardButton('✨️ Developer ✨️', url='http://t.me/Ramanan1_bot'),
+            InlineKeyboardButton('📥 Group 📥', url='https://t.me/qtmvereq')
         ]
         ]
     await message.reply(text="<b>Developer : <a href='http://t.me/Ramanan1_bot'>Aslam</a>\nLanguage : <code>Python3</code>\nLibrary : <a href='https://github.com/aslamcreation12/IMDb-Filter-bot-Cinema'>Pyrogram asyncio</a>\nSource Code : <a href='http://t.me/Ramanan1_bot'>Click here</a>\nUpdate Channel : <a href='https://t.me/joinchat/Wl2qJsJpNhg0OWVl'>𝙹𝙾𝙸𝙽 𝙽𝙾𝚆</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
@@ -206,8 +206,8 @@ async def bot_info(bot, message):
 async def bot_info(bot, message):
     buttons = [
         [
-            InlineKeyboardButton('💌 Subscribe 💌', url='https://t.me/joinchat/Wl2qJsJpNhg0OWVl'),
-            InlineKeyboardButton('࿐ Support Group ࿐', url='https://t.me/cinima_lokam_group')
+            InlineKeyboardButton('📂 Developer channel 📂', url='https://t.me/joinchat/Wl2qJsJpNhg0OWVl'),
+            InlineKeyboardButton('࿐ Support Group ࿐', url='https://t.me/qtmvereq')
         ]
         ]
     await message.reply(text="<b>If You Have Any Doubts And If Any Errors In Codes Or Bugs Inform Us On Our Support Group ❗️\n Use Below Buttons To Get Support Group / Update channel Links </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
