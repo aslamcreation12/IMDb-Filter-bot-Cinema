@@ -67,7 +67,7 @@ async def start(bot, cmd):
                 buttons = [
                     [
                         InlineKeyboardButton('📺 Search here 🔍', switch_inline_query_current_chat=''),
-                        InlineKeyboardButton('💌 Subscribe 💌', url='https://t.me/qtmve')
+                        InlineKeyboardButton('💌 Subscribe 💌', url='https://t.me/+tEPwafpzSqo3ZTM1')
                     ]
                     ]
                 await bot.send_cached_media(
@@ -100,10 +100,10 @@ async def start(bot, cmd):
                 [
                     [
                         InlineKeyboardButton("📺 search here 🔍", switch_inline_query_current_chat=''),
-                        InlineKeyboardButton("📥 New Release movies 📥", url='https://t.me/qtmve'),
+                        InlineKeyboardButton("📥 New Release movies 📥", url='https://t.me/+tEPwafpzSqo3ZTM1'),
                     ],
                    [
-                       InlineKeyboardButton("🍿 Movies Group 📺", url='https://t.me/cinima_lokam_group'),
+                       InlineKeyboardButton("🍿 Movies Group 📺", url='https://t.me/qtmvereq'),
                        InlineKeyboardButton("✨️Developer ✨️", url='http://t.me/Ramanan1_bot'),
                     ],
                      [
